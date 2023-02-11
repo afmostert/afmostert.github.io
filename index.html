@@ -1,0 +1,139 @@
+<!--
+Please note I made use of the following websites for information on CSS:
+- The javaatpoint website for information on sizing images
+https://www.javatpoint.com/how-to-change-image-size-in-css
+- w3schools for image alignment
+https://www.w3schools.com/howto/howto_css_image_center.asp
+- w3schools for websafe fonts
+https://www.w3schools.com/cssref/css_websafe_fonts.php
+- w3schools for table styling, particularly borders
+https://www.w3schools.com/css/css_table_style.asp
+- w3schools for padding, which is used in tables and the body
+https://www.w3schools.com/css/css_padding.asp
+-->
+
+<!DOCTYPE html>
+
+<html>
+
+<head>
+    <!-- Metadata -->
+    <title>A Mostert CV</title>
+	
+	<style type="text/css">
+	
+	#mainheading {
+		text-align: center;
+		text-decoration: underline;
+		font-size: 45px;
+	}
+	
+	#profilepicture {  
+		max-width: 90%;  
+		height: auto;
+		display: block;
+		margin-left: auto;
+		margin-right: auto;
+		width: 100%;	
+	}
+	
+	#profilecontainer {
+		width: 300px;	
+	}
+	
+	body {
+		font-family: 'Courier New', monospace;
+		padding: 30px;
+	}
+	
+	td{		
+		border-style: dotted;
+		padding: 15px;
+	}
+	
+	h2{
+		text-decoration: underline;
+	}
+	
+    a {
+        color: red;
+    }
+	
+</style>
+    
+</head>
+
+<body>
+    <h1 id="mainheading"> Andre Mostert CV </h1><br>
+	
+	<table>
+		<tr>
+			<td>
+				<h2> About Me </h2>
+				<p> I am a customer service representative in the financial industry and hobbyist programmer who is hoping to go professional. </p>
+				<p> I am enrolled with the Software Engineering Bootcamp from HyperionDev, who have been helping develop those skills. </p>
+				<p> My favourite language is Python, though I am experienced in Java and C/++/#. </p><br>
+			</td>
+			<td id = "profilecontainer">
+				<img src = "images/2Q.png" id="profilepicture">
+			</td>
+		</tr>
+	</table><br>
+	
+	<h2> Contact Details </h2>
+    <table>
+		<tr>
+			<td> Telephone: </td>
+			<td> (021) 976-7502 </td>
+		</tr>
+		<tr>
+			<td> Cellphone: </td>
+			<td> (+27) 079 380 5952 </td>
+		</tr>
+		<tr>
+			<td> eMail Address: </td>
+			<td> amostert97@gmail.com </td>
+		</tr>
+	</table><br>
+	
+	<h2> Links </h2>
+	<ul>
+		<li> <a href = "https://github.com/afmostert/">GitHub</a> </li>
+		<li> <a href = "https://www.linkedin.com/in/andre-mostert-b81677157/">LinkedIn</a> </li>
+	</ul><br>
+	
+	<h2>Projects</h2>
+	<ul>
+		<li> A Database Management System for a contruction company (Java):<br> 
+			<a href = "https://github.com/afmostert/PoisedDB">PoisedDB</a> </li>
+		<li> Financial Calculators for office use (python):<br> 
+			<a href = "https://github.com/afmostert/finance_calculators">finance_calculators</a> </li>
+			<li> Task Assignment Software for office use (python):<br>
+			<a href = "https://github.com/afmostert/task_manager">task_manager</a> </li>
+	</ul><br>
+	
+	<h2>Skills</h2>
+	<ul>
+		<li> Well organised </li>
+		<li> Very fast learner </li>
+		<li> Tidy and precise </li>
+		<li> Good documentation skills </li>
+		<li> Good interpersonal skills </li>
+		<li> Able to work well in teams </li>
+		<li> Function well under pressure </li>
+		<li> Accepting of criticism </li>
+	</ul><br>
+	
+	<h2>Eductation</h2>
+	<p>Fairmont High School - National Senior Certificate</p>
+	<h2>Work Experience</h2>
+	<ul>
+		<li> Assistant Manager at Wilkop Filling Station </li>
+		<li> Background Actor with 39 Steps Casting Agency </li>
+		<li> Actor & Model with Martez Model Management </li>
+		<li> Client Care Representative at Sanlam </li>
+	</ul><br>
+
+</body>
+
+</html>
